@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>
+Healthy Jus
+</title>
+<script type="text/javascript" src="billing.js">
+</script>
+<style>
+b{
+font-size:20px;
+color:red;
+font-family:times new roman;
+}
+input{color:black;
+background-color:pink;}
+p{color:soli-black;}
+</style>
+
+</head>
+<tr>
+    <th><button> Home page </button></th>  
+</tr>
+<body background-color="#FF8AFF">
+<table width="1300"><tr><td width="700">
+<h1 style="color:black"><center><font color="red">Healthy Natural Juice</font></center></h1>
+<hr align="left">
+<h2 style="color:rgb(207, 53, 53);">Order Form</h2>
+<form >
+ <p><label>Customer name: <input  id="a" required type="text"></label></p>
+ <p><label>Telephone:          <input type="number" id="b" ></label></p>
+
+
+ <p><label>E-mail address:   <input type="email" id="c"></label></p>
+ <fieldset>
+  <legend style="color:rgb(207, 53, 53)"><h2> Size</h2> </legend>
+  <p><label> <input type="radio" name=size  id="d" style="color:rgb(207, 53, 53)" value="small"> Small </label></p>
+  <p><label> <input type="radio" name=size id="e" value="medium"> Medium </label></p>
+  <p><label> <input type="radio" name=size  id="f" value="large"> Large </label></p>
+ </fieldset>
+ <fieldset width="500">
+  <legend style="color:rgb(207, 53, 53)"> <h2>Savors</h2> </legend>
+  <p><label> <input type="checkbox" name="a" id="L" value="Lemonade"> Lemonade </label></p>
+  <p><label> <input type="checkbox" name="b" id="O" value="Orange"> Orange </label></p>
+  <p><label> <input type="checkbox" name="c" id="ML" value="Mango, Lemonade"> Mango, Lemonade </label></p>
+
+
+  <p><label> <input type="checkbox" name="d" id="j" value="Pine Apple"> Pina Apple </label></p>
+ </fieldset>
+ <p><label>Delivery time: <input type="time" min="8:30 am" max="9:00 pm" step="60"></label></p>
+ <p><label>Instructions:     <textarea maxlength=10></textarea></label></p>
+ <p><label>Cup's No. :             <input type="number" id="k"/></p>
+ <p id="or"><input  type="button"  value="Process " onClick="check();addBtn();"/>
+
+ <input  type="Reset" id="rst" value="Reset"></p>
+</td><td width="150"></td>
+<td valign="top"><h1><u><p id="z"></p></u></h1>
+<h2><p id="w"></p></h2>
+<pre><h4><p id="p1"></p></h4></pre>
+<pre><h4><p id="p2"></p></h4></pre>
+<pre><h4><p id="p3"></p></h4></pre>
+<pre><h4><p id="p4"></p></h4></pre>
+<pre><h4><p id="p5"></p></h4></pre>
+<pre><h4><p id="p6"></p></h4></pre>
+<pre><h4><p id="x"></p></h4></pre>
+
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
