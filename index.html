@@ -1,40 +1,113 @@
 <html>
 <head>
-    ,<center>
-    <h1 style="color:rgb(20, 7, 204);">HAPPY FRUITS AND JUICE !! </h1>
+    <center>
+        <h1 style="color:rgb(122, 36, 36);">HAPPY FRUITS AND JUICE !! </h1>
     </center>
 </head>
-<body bgColor="#AED6F1"><center>
+
+<body bgColor="#AED6F1"> <center>
     <!-- Start Content -->
-<div id="home" class="w3-content">
-
-    <!-- Navbar (Sits on top) -->
-    <hr>
+    <div class="topnav">
+        
+        <th><a href="signup_login.html"><input type="button" value="Signup/Login"></a></th>
+        <a href="about.html"><input type="button" value="About us"></a>
+        <a href="contact.html"><input type="button" value="Contact"></a>
     
-    <table style="width:35% ">
-        <tr>
-             
-            <th><a href="signup_login.html"><input type="button" value="Signup/Login"></a></th>
-            <th><a href="about.html"><input type="button" value="About us"></a></th>
-            <th><a href="contact.html"><input type="button" value="Contact"></a></th>
-            <th> <input type="text" placeholder="Search.." name="search"></th>
-            <th><a href="happyfj.html"><input type="button" value="Order "></a></th>
-          
-        </tr>
-      </table>
-    <hr>
-   
-    </div>
-
+        <th><a href="happyfj.html"><input type="button" value="Order "></a></th>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </center>
 <div style="height:800px;background-image:url('jus.jpg');background-size:cover
 <img src="jus.jpg" width="400" height="400"/><br><br>
+</div>
 
 </body>
 
 <html>
-<head></head>
-<body bgColor="#FF8AFF"><center>
-<h1 style="color:maroon;">Better and healthy natural juice in the community</h1><br>
+<head>
+    <style>
+    
+            * {box-sizing: border-box;}
+            
+            body {
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .topnav {
+              overflow: hidden;
+              background-color: #b7d7ee;
+            }
+            
+            .topnav a {
+              float: left;
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            
+            .topnav a.active {
+              background-color: #2196F3;
+              color: white;
+            }
+            
+            .topnav .search-container {
+              float: center;
+            }
+            
+            .topnav input[type=text] {
+              padding: 6px;
+              margin-top: 8px;
+              font-size: 17px;
+              border: none;
+            }
+            
+            .topnav .search-container button {
+              float: center;
+              padding: 6px;
+              margin-top: 8px;
+              margin-right: 16px;
+              background: #ddd;
+              font-size: 17px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .topnav .search-container button:hover {
+              background: #ccc;
+            }
+            
+            @media screen and (max-width: 600px) {
+              .topnav .search-container {
+                float: center;
+              }
+              .topnav a, .topnav input[type=text], .topnav .search-container button {
+                float: center;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+              }
+              .topnav input[type=text] {
+                border: 1px solid #ccc;  
+              }
+            }
+        
 
-</center>
+    </style>
+</head>
 </body>
